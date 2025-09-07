@@ -1,18 +1,18 @@
-## Getting Started
+PS C:\Users\Valery\Alquiler Ejercicio>  & 'C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin\java.exe' '-XX:+ShowCodeDetailsInExceptionMessages' '-cp' 'C:\Users\Valery\AppData\Roaming\Code\User\workspaceStorage\7e5637530972438af397023fc87f83c9\redhat.java\jdt_ws\Alquiler Ejercicio_d7a0feb5\bin' 'com.alquiler.Main' 
+=== VEHÍCULOS DISPONIBLES ===
+1) Auto [ABC123] Toyota Corolla (20.000 km) | Interfaces: Rentable, Asegurable
+2) Moto [XYZ987] Yamaha FZ (12.000 km)      | Interfaces: Rentable
+3) Camioneta [JKL456] Ford Ranger (50.000 km) | Interfaces: Rentable, Asegurable
+4) AutoElectrico [ELE111] Tesla Model 3 (10.000 km) | Interfaces: Rentable, Asegurable, Electrico
+5) CamionetaElectrica [ELE222] BYD Tang (8.000 km) | Interfaces: Rentable, Asegurable, Electrico
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Seleccione vehículo (1-5): 1
+Días de alquiler: 5
+Elija estrategia de precio:
+1. Estándar
+2. Fin de semana (10% si dias >= 2)
+3. Largo plazo (15% si dias >= 10)
+Opción: 2
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Alquiler de Auto [ABC123] Toyota Corolla (20.000 km) por 5 días - Total: $583.200,00
+Condiciones: El vehículo se entrega con tanque lleno, debe devolverse en iguales condiciones. Multa por día de retraso.
